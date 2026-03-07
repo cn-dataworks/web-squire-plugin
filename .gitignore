@@ -1,0 +1,41 @@
+# Claude Code local settings (contains user-specific paths)
+.claude/settings.local.json
+
+# Playwright screenshots (generated output)
+screenshots/
+
+# Playwright MCP cache
+.playwright-mcp/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+nul
+
+# Node
+node_modules/
