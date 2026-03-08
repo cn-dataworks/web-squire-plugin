@@ -54,6 +54,17 @@ Layer 2: Subagent    — parallel execution, isolated sessions (agents/)
 Layer 1: Skill       — browser automation capability (skills/)
 ```
 
+## Git Safety (Public Repository)
+
+This is a **public repository**. Before any `git push`, scan all staged changes for sensitive information:
+
+- API keys, tokens, secrets, passwords
+- Internal URLs, IP addresses, hostnames
+- User-specific paths or credentials
+- `.env` files, connection strings, auth configs
+
+If anything sensitive is found, **stop and flag it** before pushing.
+
 ## Key Conventions
 
 - Stories live in the consuming project's `ai_user_stories/` directory
